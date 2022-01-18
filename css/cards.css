@@ -1,0 +1,95 @@
+.reserva-quartos{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 4px 0 0 0 ;
+}
+
+.reserva-informacoes{
+    width: 100%;
+    display: flex;
+}
+
+.reserva-quartos_titulo{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px 16px 32px 16px;
+    color: #29415E;
+}
+
+.reserva-tabela{
+    display: flex;
+}
+
+.reserva-valores{
+    display: flex;
+    align-items: center;
+}
+
+.reserva-preco{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 32px 0;
+    color: #29415E;
+}
+
+.reserva-users{
+    padding-left: 48px;
+    padding-right: 16px;
+}
+
+.reserva-quartos p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #29415E;
+}
+
+.reserva-botao{
+    padding-right: 16px;
+}
+
+.reserva-botao button{
+    font-family: 'Poppins';
+    background-color: #FBDE64;
+    padding: 16px 24px;
+    border-radius: 100px;
+    border: none;   
+    color: #29415E;
+    line-height: 24px;
+}
+
+.reserva-informacoes{
+    background-color: #fff
+}
+
+.reserva-informacoes{
+    padding: 8px;
+    border: 1px solid #CFD9E7;
+    border-radius: 0 0 4px 0;
+}
+
+.reserva-informacoes_texto{
+    padding-left: 16px;
+    color: #536580;
+    font-size: 14px;
+    line-height: 24px;
+}
+.sobre-quarto.mostrar-quartos{
+    display: initial;    
+}
+
+
+.reserva-item{
+    display: flex;
+}
+
+.chale{
+    margin-top: 16px;
+}
+
+.luxo{
+    margin-top: 16px;
+}

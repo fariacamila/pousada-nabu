@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="">
+    <title>Dados Pessoais</title>
+</head>
+
+<body>
+
+    <section class="pagina-formulario">
+        <form class="formulario" action="#">
+            <h1 class="formulario-titulo">Dados pessoais</h1>
+            <div class="formulario-dados_pessosais">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Ex.: Camila Faria">
+            </div>
+            <div class="formulario-dados_pessosais">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" placeholder="contato@email.com">
+            </div>
+            <div class="formulario-dados_cartao">
+                <h2 class="formulario-titulo">Dados do cartão</h2>
+                <p class="formulario-dados_cartao_texto">Você não será cobrado agora. Solicitamos os dados do cartão
+                    para garantir a reserva e realizar a cobrança em caso de cancelamento 7 dias antes da reserva.</p>
+                <div class="formulario-cartao">
+                    <label for="numero">Número do cartão</label>
+                    <input type="number" name="numero" id="numero" placeholder="0000 0000 0000 0000">
+                </div>
+                <div class="formulario-cartao_dados">
+                    <div class="formulario-cartao_titular">
+                        <label for="nome-titular">
+                            <p>Titular do cartão</p>
+                        </label>
+                        <input type="text" name="nome-titular" id="nometitular">
+                    </div>
+                    <div class="formulario-cartao_validade">
+                        <label for="validade">
+                            <p>Validade</p>
+                        </label>
+                        <input type="number" name="validade" id="validade" placeholder="00/00">
+                    </div>
+                    <div class="formulario-cartao_cvv">
+                        <label for="cvv">
+                            <p>CVV</p>
+                        </label>
+                        <input type="number" name="numero" id="numero" placeholder="000" maxlength="4"
+                            autocomplete="off">
+                    </div>
+                </div>
+                <div class="formulario-cartao_parcelas">
+                    <label for="parcelas">
+                        <p>Número de parcelas</p>
+                    </label>
+                    <input type="number" name="parcelas" id="parcelas">
+                </div>
+            </div>
+        </form>
+        <section class="dados-reserva formulario">
+            <div class="reserva-conteiner reserva-conteiner_item">
+                <h2 class="reserva-titulo">Dados de sua reserva</h2>
+                <h3 class="reserva-subtitulo">Entrada:</h3>
+                <p class="reserva-texto entrada">domingo, 17 de novembro de 2019 a partir das 14:00</p>
+                <h3 class="reserva-subtitulo saida">Saída:</h3>
+                <p class="reserva-texto">segunda-feira, 19 de novembro até 11:00</p>
+                <h3 class="reserva-subtitulo">Duração total da hospedagem:</h3>
+                <p class="reserva-texto">2 diárias</p>
+            </div>
+            <div class="reserva-resumo">
+                <div class="reserva-conteiner">
+                    <h2 class="reserva-titulo">Resumo do preço</h2>
+                    <div class="reserva-conteiner_reserva">
+                        <p class="reserva-texto">Suíte premium</p>
+                        <p class="reserva-texto">180,00</p>
+                    </div>
+                </div>
+                <div class="reserva-conteiner reserva-conteiner_item reserva-preco">
+                    <h2 class="reserva-titulo">Preço</h2>
+                    <div class="reserva-conteiner_reserva">
+                        <p class="reserva-texto">(para todos os hóspedes)</p>
+                        <p class="reserva-texto">R$ 180,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="formulario-botao">
+                <button>Concluir reserva</button>
+            </div>
+        </section>
+    </section>
+    <script src="js/Calendario.js"></script>
+
+</body>
+
+</html>

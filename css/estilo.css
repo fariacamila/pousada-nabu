@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Roboto';
+}
+
+.container{
+    padding: 0 244px;
+    display: flex;
+}
+
+.pousada-titulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    padding-top: 81px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #29415E;
+}
+
+.pousada-texto{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #536580;
+    padding: 8px 0;
+}
+
+.pousada-expandir{
+    display: flex;
+    align-items: center;
+}
+
+.pousada-expandir_seta{
+    padding-right: 8px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pousada-botao_expandir{
+    font-weight: 400;
+    color: #406591;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+    background-color: #fff;
+}
+
+.comodidade-conteiner{
+    display: none;
+}
+
+.comodidade{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comodidade-titulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 35px 0 16px 0;
+    color: #29415E;
+}
+
+.comodidades-lista{
+    font-weight: 400;
+    display: flex;
+    padding-right: 20px;
+}
+
+.comodidade-img{
+    padding-right: 13px;
+}
+
+.mapa{
+    padding-top: 81px;
+    padding-left: 121px;
+}
+
+.mapa-endereco{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px;
+    background-color: #F3F6FD;
+    color: #536580;
+}
+
+.mapa-p{
+    padding: 16px 0;
+}
+
+.mapa-texto{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #536580;
+}
+
+
+.cancelamento{
+    padding-top: 16px;
+}
+
+.reserva{
+    padding: 0 248px 120px 248px;
+    background-color: #F3F6FD;
+}
+
+.reserva-titulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #29415E;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 40px;
+    padding-bottom: 8px;
+}
+
+/* #calendario{
+    display: none;
+}
+
+#calendario.mostrar-calendario{
+    display: initial;
+} */
+
+.reserva-data{
+    background-color: #fff;
+    display: flex;
+    width: 44%;
+    border: 1px solid #CFD9E7;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.reseva-chek{
+    display: flex;
+    
+    align-items: center;
+}
+
+.reserva-data_entrada{
+    color: #536580;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+.seta{
+    border-right: 1px solid #CFD9E7;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.reserva-seta{
+    padding-left: 56px;
+    padding-right: 24px;
+    
+}
+
+.reserva-calendario{
+    padding: 16px;
+    border-left: 1px solid #CFD9E7;
+}
+
+.reserva-classificacao{
+    border-top: 1px solid #CFD9E7;
+    padding-top: 40px;
+    color: #29415E;
+    display: flex;
+    padding-bottom: 16px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.reserva-tipo{
+    padding-right: 348px;
+}
+
+.reserva-noite{
+    padding-right: 24px;
+}
+
+.sobre-quarto{
+    display: none;
+}
+
+.sobre-quarto_chale{
+    display: none;
+}
+
+.sobre-quarto_luxo{
+    display: none;
+}
+
+.sobre-titulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: 
+    #29415E;
+    padding-top: 16px;
+    padding-bottom: 6px;
+}
+
+.sobre-texto{ 
+    font-size: 16px;
+    line-height: 24px;
+    color: #536580;
+}
+
+.sobre-comodidades_lista{
+    color: #536580;
+    font-size: 16px;
+    line-height: 24px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.sobre-comodidades{
+    padding: 16px 16px 16px 0;
+    display: flex;
+}
+
+.sobre-comodidades img{
+    padding-right: 8px;
+}

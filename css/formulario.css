@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap');
+
+body{
+    font-family: 'Roboto';
+}
+
+.pagina-formulario{
+    justify-content: space-between;
+    display: flex;
+    padding: 80px 245px 0 245px;
+}
+
+.formulario{
+    max-width: 50%;
+}
+
+.formulario-titulo{
+    font-family: 'Poppins';
+    padding: 8px 0 4px 0;
+    line-height: 36px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #29415E;
+}
+
+.formulario-dados_pessosais{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    color: #29415E;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+}
+
+form input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #CFD9E7;
+}
+
+form ::-webkit-input-placeholder{
+    color: #BFC6D0;
+}
+
+.formulario-cartao_dados{
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.formulario-cartao{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-cartao_titular{
+    width: 100%;
+}
+
+.formulario-cartao_dados p{
+    padding: 16px 0 8px 0;
+    line-height: 25px;
+}
+
+.formulario-cartao_dados{
+    display: flex;
+}
+
+.formulario-dados_cartao_texto{
+    padding-bottom: 16px;
+    color: #536580;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.formulario-cartao_parcelas p{
+    padding: 16px 0 8px 0;
+    line-height: 25px;
+}
+
+.formulario-botao button{
+    padding: 18px 24px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    line-height: 24px;
+    color: #29415E;
+    border: none;
+    text-decoration: none;
+    background-color: #FBDE64;
+    border-radius: 100px
+}
+
+.formulario-botao{
+    padding-top: 148px;
+    padding-left: 248px;
+}
+
+.reserva-conteiner{
+    padding: 16px 16px 0 16px; 
+}
+
+.reserva-conteiner_item{
+    background-color: #F3F6FD;
+    margin-bottom: 24px;
+}
+
+.reserva-titulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 8px;
+    color: #29415E;
+}
+
+.reserva-subtitulo{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #29415E;
+    padding-bottom: 4px;
+}
+
+.reserva-texto{
+    font-family: 'Poppins';
+    padding-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #536580;
+}
+
+.reserva-resumo{
+    border: 1px solid #CFD9E7;
+    border-radius: 4px; 
+}
+
+.reserva-conteiner_reserva{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reserva-preco{
+    margin: 0;
+}

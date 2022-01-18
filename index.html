@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <title>Pousada</title>
+</head>
+
+<body>
+    <header class="pousada-container container">
+        <section>
+            <h1 class="pousada-titulo">Pousada Nabu</h1>
+            <p class="pousada-texto">Próximo aos setores de entretenimento e empresarial, o Plaza Bittar Hotel fica
+                a 1 quarteirão do Shopping
+                Brasília e a 15 minutos de carro do Aeroporto Internacional de Brasília. Os quartos dispõem de
+                ar-condicionado, e o Wi-Fi...</p>
+            <div class="pousada-expandir">
+                <img class="pousada-expandir_seta" src="imagens/Vector.svg" alt="#">
+                <button class="pousada-botao_expandir" onclick="expandirDescricao()">Expandir descrição do
+                    hotel</button>
+            </div>
+            <div class="comodidade-conteiner">
+                <h2 class="comodidade-titulo">Comodidades do hotel</h2>
+                <div class="comodidade">
+                    <div class="comodidades-lista">
+                        <img class="comodidade-img" src="imagens/wifi.svg" alt="#">
+                        <p class="pousada-texto">Wi-Fi gratuíto</p>
+                    </div>
+                    <div class="comodidades-lista">
+                        <img class="comodidade-img" src="imagens/coffee.svg" alt="#">
+                        <p class="pousada-texto">Restaurante</p>
+                    </div>
+                    <div class="comodidades-lista">
+                        <img class="comodidade-img" src="imagens/relogio.svg" alt="#">
+                        <p class="pousada-texto">Recepção 24h</p>
+                    </div>
+                    <div class="comodidades-lista">
+                        <img class="comodidade-img" src="imagens/toalha.svg" alt="#">
+                        <p class="pousada-texto">Toalha de banho</p>
+                    </div>
+                    <div class="comodidades-lista">
+                        <img class="comodidade-img" src="imagens/agua.svg" alt="#">
+                        <p class="pousada-texto">Piscina</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr"
+                    width="296px" height="130px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <address class="mapa-endereco">
+                Av. Porto Novo, 764-806 - Ibiraquera, Imbituba - SC
+            </address>
+            <div class="mapa-p">
+                <p class="mapa-texto"><strong>Check in:</strong> 14:00 às 17:00 </p>
+                <p class="mapa-texto"><strong>Check out:</strong> até às 11:00 </p>
+                <p class="mapa-texto cancelamento"><strong>Cancelamento grátis:</strong> até 7 dias antes da sua
+                    reserva.
+                </p>
+            </div>
+        </section>
+    </header>
+
+    <section class="reserva">
+        <div class="reserva-container">
+            <h2 class="reserva-titulo">Reserve a sua acomodação</h2>
+        </div>
+        <div>
+            <input type="date" name="" class="calendario-entrada" >
+            <input type="date" name="" class="calendario-saida" >
+        </div>
+        <!-- <div class="reserva-data">
+            <input type="date" id="calendario">
+            <div class="reseva-chek">
+                <p class="reserva-data_entrada">Dom, 17 Nov</p>
+                <img class="reserva-seta seta" src="imagens/Vector.svg" alt="#">
+            </div>
+            <div class="reseva-chek">
+                <p class="reserva-data_entrada saida">Ter, 19 Nov</p>
+                <img class="reserva-seta" src="imagens/Vector.svg" alt="#">
+            </div>
+            <img class="reserva-calendario" src="imagens/calendario.svg" alt="#">
+        </div> -->
+        <div class="reserva-classificacao">
+            <p class="reserva-tipo">Tipo de quarto</p>
+            <div class="reserva-tabela">
+                <p class="reserva-noite">Preço por noite</p>
+                <p class="reserva-texto">Capacidade</p>
+            </div>
+        </div>
+        <div class="reserva-quartos">
+            <div class="reserva-item">
+                <img src="imagens/suite-premio.svg" alt="#">
+                <h2 class="reserva-quartos_titulo">Suíte Premium</h2>
+            </div>
+            <div class="reserva-valores">
+                <p class="reserva-preco">R$ 180,00</p>
+                <img class="reserva-users" src="imagens/users.svg" alt="#">
+                <p>2</p>
+            </div>
+
+            <div class="reserva-botao" onclick="reserva()">
+                <button>Reservar</button>
+            </div>
+
+            <div class="reserva-informacoes ver-mais" onclick="verMais()">
+                <img class="reserva-informacoes_img" src="imagens/Vector.svg" alt="#">
+                <p class="reserva-informacoes_texto">Mais Informações</p>
+            </div>
+            <section class="sobre-quarto">
+                <h2 class="sobre-titulo">Sobre o quarto</h2>
+                <p class="sobre-texto">Espaço para famílias e grupos de amigos que buscam descanso, descontração e
+                    atratividades. Chalés totalmente equipados que acomodam até 6 pessoas.</p>
+                <h2 class="sobre-titulo">Acomodações</h2>
+                <p class="sobre-texto">02 dormitórios (01 cama de casal e 02 beliches)</p>
+                <h2 class="sobre-titulo">Comodidades</h2>
+                <div class="sobre-comodidades_lista">
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Máquina de café</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Televisão 40 polegadas</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="reserva-quartos chale">
+            <div class="reserva-item">
+                <img src="imagens/chale.svg" alt="#">
+                <h2 class="reserva-quartos_titulo">Chalé Simples</h2>
+            </div>
+            <div class="reserva-valores">
+                <p class="reserva-preco">R$ 85,00</p>
+                <img class="reserva-users" src="imagens/users.svg" alt="#">
+                <p>3</p>
+            </div>
+            <div class="reserva-botao">
+                <button>Reservar</button>
+            </div>
+            <div class="reserva-informacoes ver-mais" onclick="verMais()">
+                <img class="reserva-informacoes_img" src="imagens/Vector.svg" alt="#">
+                <p class="reserva-informacoes_texto">Mais Informações</p>
+            </div>
+            <section class="sobre-quarto">
+                <h2 class="sobre-titulo">Sobre o quarto</h2>
+                <p class="sobre-texto">Espaço para famílias e grupos de amigos que buscam descanso, descontração e
+                    atratividades. Chalés totalmente equipados que acomodam até 6 pessoas.</p>
+                <h2 class="sobre-titulo">Acomodações</h2>
+                <p class="sobre-texto">02 dormitórios (01 cama de casal e 02 beliches)</p>
+                <h2 class="sobre-titulo">Comodidades</h2>
+                <div class="sobre-comodidades_lista">
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Máquina de café</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Televisão 40 polegadas</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="reserva-quartos luxo">
+            <div class="reserva-item">
+                <img src="imagens/chale-luxo.svg" alt="#">
+                <h2 class="reserva-quartos_titulo">Chalé Luxo</h2>
+            </div>
+            <div class="reserva-valores">
+                <p class="reserva-preco">R$ 100,00</p>
+                <img class="reserva-users" src="imagens/users.svg" alt="#">
+                <p>4</p>
+            </div>
+            <div class="reserva-botao">
+                <button>Reservar</button>
+            </div>
+            <div class="reserva-informacoes ver-mais_luxo">
+                <img class="reserva-informacoes_img" src="imagens/Vector.svg" alt="#">
+                <p class="reserva-informacoes_texto">Mais Informações</p>
+            </div>
+            <section class="sobre-quarto">
+                <h2 class="sobre-titulo">Sobre o quarto</h2>
+                <p class="sobre-texto">Espaço para famílias e grupos de amigos que buscam descanso, descontração e
+                    atratividades. Chalés totalmente equipados que acomodam até 6 pessoas.</p>
+                <h2 class="sobre-titulo">Acomodações</h2>
+                <p class="sobre-texto">02 dormitórios (01 cama de casal e 02 beliches)</p>
+                <h2 class="sobre-titulo">Comodidades</h2>
+                <div class="sobre-comodidades_lista">
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Máquina de café</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Televisão 40 polegadas</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Toalhas de banho e rosto</p>
+                    </div>
+                    <div class="sobre-comodidades">
+                        <img src="imagens/fe-check-circle.svg" alt="#">
+                        <p>Secador de cabelo</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="js/Calendario.js"></script>
+    <script src="js/requisicao.js"></script>
+</body>
+
+</html>
